@@ -7,8 +7,7 @@ hiddenimports = ['typing_extensions',
                  'langchain-openai',
                  'langgraph', 
                  'openai', 
-                 'google-genai',
-                 'google',
+                 'google.generativeai',
                  'nltk',
                  'sentence_transformers',
                  'scikit-learn',
@@ -23,7 +22,7 @@ hiddenimports = ['typing_extensions',
 tmp_ret = collect_all('chromadb')
 datas += tmp_ret[0]; binaries += tmp_ret[1]; hiddenimports += tmp_ret[2]
 
-customtkinter_dir = r'c:/Users/xieli/Desktop/AI_NovelGenerator/.venv/Lib/site-packages/customtkinter'
+customtkinter_dir = r'c:/Users/Administrator/Desktop/AI_NovelGenerator/.venv/Lib/site-packages/customtkinter'
 datas.append((customtkinter_dir, 'customtkinter'))
 
 a = Analysis(
