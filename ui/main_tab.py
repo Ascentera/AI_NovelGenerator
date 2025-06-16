@@ -22,7 +22,7 @@ __all__ = [
 
 def build_main_tab(self):
     """构建主 Tab ―― 左侧编辑区 & 右侧参数区。"""
-    self.main_tab = self.tabview.add("Main Functions")
+    self.main_tab = self.tabview.add("主要功能")
     self.main_tab.rowconfigure(0, weight=1)
     self.main_tab.columnconfigure(0, weight=1)  # left
     self.main_tab.columnconfigure(1, weight=0)  # right
