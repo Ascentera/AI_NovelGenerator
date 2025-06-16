@@ -94,7 +94,7 @@ def build_ai_config_tab(self):
                 self.model_name_var.set("qwen-plus")
             elif new_value == "硅基流动":
                 self.base_url_var.set("https://api.siliconflow.cn/v1")
-                self.model_name_var。set("deepseek-ai/DeepSeek-V3")
+                self.model_name_var.set("deepseek-ai/DeepSeek-V3")
             elif new_value == "Grok":
                 self.base_url_var.set("https://api.x.ai/v1")
                 self.model_name_var.set("grok-3")
